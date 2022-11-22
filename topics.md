@@ -6,6 +6,7 @@
 
 Here, we keep track of potential topic ideas for future meetings. **Suggestions welcome!**
 
+* how to structure syntax files and projects in general
 * writing dynamic and fully reproducible manuscripts using [R Markdown](https://rmarkdown.rstudio.com)
 * using packages like [xtable](https://cran.r-project.org/package=xtable), [stargazer](https://cran.r-project.org/package=stargazer), [gt](https://gt.rstudio.com/), [apaTables](https://cran.r-project.org/package=apaTables), [flextable](https://cran.r-project.org/package=flextable), [texreg](https://cran.r-project.org/package=texreg) to export results (tables, models)
 * writing manuscripts that conform to APA guidelines using the [papaja](https://cran.r-project.org/package=papaja) package
