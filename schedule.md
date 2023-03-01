@@ -1,4 +1,4 @@
-[Home](README.md) // **[Schedule](schedule.md)** // [Topics](topics.md)
+[Home](README.md) // **[Schedule](schedule.md)** // [Materials](/materials/materials.md) // [Topics](topics.md)
 
 ---
 

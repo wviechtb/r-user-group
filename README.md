@@ -1,4 +1,4 @@
-**[Home](README.md)** // [Schedule](schedule.md) // [Topics](topics.md)
+**[Home](README.md)** // [Schedule](schedule.md) // [Materials](/materials/materials.md) // [Topics](topics.md)
 
 ---
 
@@ -30,7 +30,7 @@ The group is not a 'course' (although beginning meetings might take on this form
 
 In general, 45-60 minutes of a meeting are devoted to presentations. The remaining time is 'free hacking' and hangout time where (a) newcomers can examine the materials from previous meetings on their own (and, as needed, with the support from more experienced members), (b) members can explore other topics, and (c) members can just mingle with like-minded individuals.
 
-Since meetings are meant to be 'hands on' (i.e., to the extent possible, we will demonstrate, try out, and practice using R), make sure to bring a laptop to the meetings with the current version of R installed, which you can get from [CRAN](https://cran.r-project.org). A lot of people work with R via [RStudio](https://posit.co/products/open-source/rstudio/) (an 'integrated development environment' for R), which you also might want to install (and get for free from [here](https://posit.co/download/rstudio-desktop/)).
+Since meetings are meant to be 'hands on' (i.e., to the extent possible, we will demonstrate, try out, and practice using R), make sure to bring a laptop to the meetings with the current version of R installed, which you can get from [CRAN](https://cran.r-project.org). A lot of people work with R via [RStudio](https://posit.co/products/open-source/rstudio/) (an 'integrated development environment' for R), which you also might want to install (and can get for free from [here](https://posit.co/download/rstudio-desktop/)).
 
 ### Open Access
 

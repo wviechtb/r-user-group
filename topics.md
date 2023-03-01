@@ -1,4 +1,4 @@
-[Home](README.md) // [Schedule](schedule.md) // **[Topics](topics.md)**
+[Home](README.md) // [Schedule](schedule.md) // [Materials](/materials/materials.md) // **[Topics](topics.md)**
 
 ---
 
@@ -8,7 +8,7 @@ Here, we keep track of potential topic ideas for future meetings. **Suggestions 
 
 * how to structure syntax files and projects in general
 * writing dynamic and fully reproducible manuscripts using [R Markdown](https://rmarkdown.rstudio.com)
-* using packages like [xtable](https://cran.r-project.org/package=xtable), [stargazer](https://cran.r-project.org/package=stargazer), [gt](https://gt.rstudio.com/), [apaTables](https://cran.r-project.org/package=apaTables), [flextable](https://cran.r-project.org/package=flextable), [texreg](https://cran.r-project.org/package=texreg) to export results (tables, models)
+* using packages like [xtable](https://cran.r-project.org/package=xtable), [stargazer](https://cran.r-project.org/package=stargazer), [gt](https://gt.rstudio.com/), [apaTables](https://cran.r-project.org/package=apaTables), [flextable](https://cran.r-project.org/package=flextable), [texreg](https://cran.r-project.org/package=texreg), [gtsummary](https://cran.r-project.org/package=gtsummary) to export results (tables, models)
 * writing manuscripts that conform to APA guidelines using the [papaja](https://cran.r-project.org/package=papaja) package
 * combining R and Python code in the same markdown file
 * statistical software with a GUI that uses R for the computations (e.g., [JASP](https://jasp-stats.org/), [jamovi](https://www.jamovi.org/), [BlueSky Statistics](https://www.blueskystatistics.com))
