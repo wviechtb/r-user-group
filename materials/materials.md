@@ -8,4 +8,4 @@ The materials for the upcoming meeting and all previous meetings are collected h
 
 Date | Topic | Folder
 :--- | :---- | :--------
-2023-03-01 | Introduction / Starting with R | [link](https://github.com/wviechtb/scrum-club/tree/master/materials/2023-03-01)
+2023-03-01 | Introduction / Starting with R | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-03-01)
