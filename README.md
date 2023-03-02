@@ -4,9 +4,7 @@
 
 ## Welcome
 
-<img src="images/rlogo_um.png" align="left" width="50px"/> This is the website and GitHub repository for the **R User Group at Maastricht University** (RUG@UM).
-
-<br clear="left"/>
+This is the website and GitHub repository for the **R User Group at Maastricht University** (RUG@UM).
 
 ## Description
 
