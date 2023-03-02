@@ -19,3 +19,5 @@ After this discussion, we covered a bit of the basics of R (i.e., reading in dat
 Hope to see you at the next meeting!
 
 Wolfgang Viechtbauer
+
+**P.S.:** The room in which we are currently meeting is supposed to get renovated in the near future. This might mean that we will have to switch to a different room in case the renovations overlap with one of our meetings. Please keep an eye on the [schedule](schedule.md) where a change in room, if necessary, will be indicated.
