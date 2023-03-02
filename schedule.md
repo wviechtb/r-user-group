@@ -1,4 +1,4 @@
-[Home](README.md) // **[Schedule](schedule.md)** // [Materials](/materials/materials.md) // [Topics](topics.md)
+[Home](README.md) // [Blog](blog.md) // **[Schedule](schedule.md)** // [Materials](/materials/materials.md) // [Topics](topics.md)
 
 ---
 
@@ -17,11 +17,12 @@ Date | Topic | Location
 2023-04-26 | TBD | UNS60 M5.01 (Co Greep room)
 2023-04-12 | TBD | UNS60 M5.01 (Co Greep room)
 2023-03-29 | TBD | UNS60 M5.01 (Co Greep room)
-2023-03-15 | TBD | UNS60 M5.01 (Co Greep room)
-2023-03-01 | Introduction / Starting with R | UNS60 M5.01 (Co Greep room)
+2023-03-15 | R Basics | UNS60 M5.01 (Co Greep room)
 
 (TBD = to be determined)
 
 ### Past Meetings
 
-none so far ...
+Date | Topic | Location
+:--- | :---- | :-------
+2023-03-01 | Introduction / Starting with R | UNS60 M5.01 (Co Greep room)

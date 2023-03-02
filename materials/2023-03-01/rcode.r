@@ -161,6 +161,7 @@ plot(dat$pss, dat$posaff, xlab="Stress", ylab="Positive Affect",
 # https://en.wikipedia.org/wiki/Welch's_t-test
 
 t.test(pss ~ sex, data=dat)
+t.test(pss ~ sex, data=dat, var.equal=TRUE)
 
 # one-way ANOVA
 # https://en.wikipedia.org/wiki/One-way_analysis_of_variance

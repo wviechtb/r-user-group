@@ -1,4 +1,4 @@
-[Home](README.md) // [Schedule](schedule.md) // [Materials](/materials/materials.md) // **[Topics](topics.md)**
+[Home](README.md) // [Blog](blog.md) // [Schedule](schedule.md) // [Materials](/materials/materials.md) // **[Topics](topics.md)** // [Members](members.md)
 
 ---
 
@@ -12,7 +12,7 @@ Here, we keep track of potential topic ideas for future meetings. **Suggestions 
 * writing manuscripts that conform to APA guidelines using the [papaja](https://cran.r-project.org/package=papaja) package
 * combining R and Python code in the same markdown file
 * statistical software with a GUI that uses R for the computations (e.g., [JASP](https://jasp-stats.org/), [jamovi](https://www.jamovi.org/), [BlueSky Statistics](https://www.blueskystatistics.com))
-* alternatives to RStudio (e.g., [Visual Studio Code](https://code.visualstudio.com), [Sublime](https://www.sublimetext.com), [Emacs](https://www.gnu.org/software/emacs/), [Vim](https://www.vim.org), ...)
+* alternatives to RStudio (e.g., [Visual Studio Code](https://code.visualstudio.com), [RKWard](https://rkward.kde.org), [Architect](https://www.getarchitect.io), [Sublime](https://www.sublimetext.com), [Emacs](https://www.gnu.org/software/emacs/), [Vim](https://www.vim.org), ...)
 * the [tidyverse](https://www.tidyverse.org) and packages like [tibble](https://tibble.tidyverse.org), [magrittr](https://magrittr.tidyverse.org), and [dplyr](https://dplyr.tidyverse.org)
 * base R graphics versus [ggplot2](https://ggplot2.tidyverse.org)
 * for-loops and functionals (i.e., the `*apply()` family of functions and [purrr](https://purrr.tidyverse.org) for the tidyverse approach to functionals)
@@ -25,5 +25,9 @@ Here, we keep track of potential topic ideas for future meetings. **Suggestions 
 * making maps / visualizing spatial data
 * [Shiny](https://shiny.rstudio.com) for building interactive web apps
 * string manipulations (using base R functions, [stringr](https://stringr.tidyverse.org), etc.)
-* working with dates and date-times (using base R fucntions, [lubridate](https://lubridate.tidyverse.org), etc.)
+* working with dates and date-times (using base R functions, [lubridate](https://lubridate.tidyverse.org), etc.)
 * machine learning methods with R
+* reproducibility / Docker
+* using R on the [DSRI](https://dsri.maastrichtuniversity.nl)
+* using [ChatGPT](https://openai.com/blog/chatgpt/) for creating/documenting R code
+* writing R code with the help of [GitHub Copilot](https://github.com/features/copilot)
