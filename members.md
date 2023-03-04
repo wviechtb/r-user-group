@@ -8,6 +8,6 @@ Below is a list of members/participants of the club. If you would like your name
 
 Name | Position/Role | Interests
 :--- | :------------ | :--------
-Wolfgang Viechtbauer | Associate Professor of Methodology and Statistics | statistics, statistical programming (esp. with R), high-performance computing, free/libre open-source software, Linux
+[Wolfgang Viechtbauer](https://www.wvbauer.com/) | Associate Professor of Methodology and Statistics | statistics, statistical programming (esp. with R), high-performance computing, free/libre open-source software, Linux
 Rick Reijnders | PhD student in the Department of Psychiatry & Neuropsychology | biomedical science, systems biology, algorithms, multi-omics analysis, machine learning
-Jonas Neubert [:octocat:](https://github.com/NeubertJonas) | Master student in the Department of Neuropsychology & Psychopharmacology | psychedelic research, qualitative analysis, data visualization (Tufte), Quarto, R markdown
+[Jonas Neubert](https://github.com/NeubertJonas) | Master student in the Department of Neuropsychology & Psychopharmacology | psychedelic research, qualitative analysis, data visualization (Tufte), Quarto, R markdown
