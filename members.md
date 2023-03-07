@@ -11,3 +11,4 @@ Name | Position/Role | Interests
 [Wolfgang Viechtbauer](https://www.wvbauer.com/) | Associate Professor of Methodology and Statistics | statistics, statistical programming (esp. with R), high-performance computing, free/libre open-source software, Linux
 Rick Reijnders | PhD student in the Department of Psychiatry & Neuropsychology | biomedical science, systems biology, algorithms, multi-omics analysis, machine learning
 [Jonas Neubert](https://github.com/NeubertJonas) | Master student in the Department of Neuropsychology & Psychopharmacology | psychedelic research, qualitative analysis, data visualization (Tufte), Quarto, R markdown
+Elias Wieland | PhD student at the Pathology department | multiplex imaging & image data in general, R (and Python) for multichannel image analysis
