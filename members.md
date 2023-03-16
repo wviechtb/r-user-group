@@ -13,3 +13,4 @@ Rick Reijnders | PhD student in the Department of Psychiatry & Neuropsychology |
 [Jonas Neubert](https://github.com/NeubertJonas) | Master student in the Department of Neuropsychology & Psychopharmacology | psychedelic research, qualitative analysis, data visualization (Tufte), Quarto, R markdown
 Elias Wieland | PhD student at the Pathology department | multiplex imaging & image data in general, R (and Python) for multichannel image analysis
 Ozan Çınar | Postdoc researcher in the Department of Bioinformatics | reproducibility, containerization, interactive programs
+Dick Luyimbazi  | master of epidemiology student | R programming, statistics, datascience, quantitative methods
