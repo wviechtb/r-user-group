@@ -9,3 +9,4 @@ The materials for the upcoming meeting and all previous meetings are collected h
 Date | Topic | Folder    | Zip
 :--- | :---- | :-------- | :--------
 2023-03-01 | Introduction / Starting with R | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-03-01) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-03-01/2023-03-01.zip)
+2023-03-15 | Continue with R | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-03-15) | 
