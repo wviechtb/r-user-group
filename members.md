@@ -14,3 +14,4 @@ Rick Reijnders | PhD student in the Department of Psychiatry & Neuropsychology |
 Elias Wieland | PhD student at the Pathology department | multiplex imaging & image data in general, R (and Python) for multichannel image analysis
 Ozan Çınar | Postdoc researcher in the Department of Bioinformatics | reproducibility, containerization, interactive programs
 Dick Luyimbazi  | Master of Epidemiology student | R programming, statistics, datascience, quantitative methods
+David Barnett | PhD student at Systems Biology and at Medical Microbiology | microbiome & "omics", R package & Shiny development, making nice plots & getting people excited about R |
