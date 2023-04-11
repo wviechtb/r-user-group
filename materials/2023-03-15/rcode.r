@@ -1,7 +1,6 @@
-
 ################################################################################
 
-# R script for the second meeting of the 'R User Group at Maastricht University' 
+# R script for the second meeting of the 'R User Group at Maastricht University'
 # (RUG@UM) on March 15th, 2023
 # (https://wviechtb.github.io/r-user-group/)
 
@@ -20,7 +19,7 @@ help(plot)  # Searching the documentation of a specific function.
 ?plot	      # Same as the previous code.
 
 # The help-page documentations usually provide details and could be difficult to
-# follow or understand. The example section at the end might be beneficial to 
+# follow or understand. The example section at the end might be beneficial to
 # see the practical use of the function and help people to understand it.
 
 # One good practice is to separate the examples into pieces or play with them to
@@ -33,20 +32,20 @@ plot(cars$speed, cars$dist, pch=19, cex=1.2, col="blue")
 
 # A more detailed search can be made by using ?? syntax.
 ??plot
-# Note that it does not look only for the functions whose names include the 
+# Note that it does not look only for the functions whose names include the
 # keyword you are searching.
 
-# ?? can also look for functions that are available in packages* that are not 
-# loaded into your R environment. 
-#   * A package is a set of R functions that work together to accomplish a 
-#   specific work. E.g., The lme4 package is a set of R commands that can fit 
+# ?? can also look for functions that are available in packages* that are not
+# loaded into your R environment.
+#   * A package is a set of R functions that work together to accomplish a
+#   specific work. E.g., The lme4 package is a set of R commands that can fit
 #   mixed-effects models and accomplish work related to mixed-effects models.
 ?xyplot
 ??xyplot
 
 # lattice::xyplot means that there is a function named xyplot under the package
-# lattice. So, we need to load lattice package to use xyplot(), first. We will 
-# come back to packages later. 
+# lattice. So, we need to load lattice package to use xyplot(), first. We will
+# come back to packages later.
 
 # However, there are (more common cases) where a need about a warning* or error*.
 # thrown by R when a command is run.
@@ -60,7 +59,7 @@ a           # However, the code still run.
 a <- 1 + "a"
 a
 
-# R tries to be clear and explanatory in the error and warning messages to make 
+# R tries to be clear and explanatory in the error and warning messages to make
 # us able to trace back what was incorrect in the command. But, they could still
 # be difficult to understand. In such cases, one way to get help is to ask others
 # in-person or looking for online help by "googling" the error or warning message.
@@ -73,21 +72,21 @@ a
 ### Object Classes
 
 # R usually has a common way to work where it assigns values to objects and the
-# objects are stored and used in commands. Depending on their values, objects 
+# objects are stored and used in commands. Depending on their values, objects
 # have different classes that allows appropriate work to be done with them.
 # Some basic classes are "numeric", "integer", "character" and "logical" and the
 # class of an object can be seen with the class function.
 a <- 5.4  # Here, a is the object and 5.4 is its value.
 class(a)  # The class of the object a is numeric.
 class(5)  # To be safe, R tries to store numbers as numerics even if they do not
-          # have decimals. 
-class(5L) # The syntax L can be used to force a numeric to be integer. 
+          # have decimals.
+class(5L) # The syntax L can be used to force a numeric to be integer.
 
-# Characters are objects that can store semantic values. 
-b <- "example"  
+# Characters are objects that can store semantic values.
+b <- "example"
 b
 class(b)
-# Note the quotation marks around the (string) value. Alternatively, one can 
+# Note the quotation marks around the (string) value. Alternatively, one can
 # also use single quotation marks.
 b <- 'example'
 b
@@ -108,18 +107,18 @@ b * 2   # But a character cannot be used in arithmetic operations.
 c <- TRUE
 c
 class(c)
-# Logical objects are usually created after comparisons. 
+# Logical objects are usually created after comparisons.
 a > 5
 class(a > 5)
 # Logical objects can be used for subsetting* or in conditional and control flow
-# works. 
-#   * Subsetting refers to get a part or pieces of an object that contains 
+# works.
+#   * Subsetting refers to get a part or pieces of an object that contains
 #   multiple values.
 set <- c(1, 3, 6, 2, 8, 7)  # The c function concatenates values in a single one.
 set
 # Some simple subsetting examples.
 set[1:3]        # Subsetting the first three values.
-set[c(1, 5, 2)] # Subsetting the first, fifth and second values. 
+set[c(1, 5, 2)] # Subsetting the first, fifth and second values.
 
 # Creating an indexing value based on a comparison.
 ind <- set > 4
@@ -172,12 +171,12 @@ data()
 dat <- iris   # Assigning the data set to an object.
 head(dat)     # First six rows of the data set.
 str(dat)      # The structure of the data set.
-# Factors are special character objects that can be categorized. 
+# Factors are special character objects that can be categorized.
 
-summary(dat)  # A summary of the variables in the data set that may differ in 
-              # presentation based on the class of the variable. 
+summary(dat)  # A summary of the variables in the data set that may differ in
+              # presentation based on the class of the variable.
 
-# Subsetting in matrices and data.frames is done by indexing both the rows and 
+# Subsetting in matrices and data.frames is done by indexing both the rows and
 # columns.
 dat[1:3, 1:2]   # First three rows of the first two columns.
 dat[1:3, c(1, 2, 5)]
@@ -191,11 +190,11 @@ plot(Sepal.Length ~ Petal.Length, data=dat, pch=19, xlab="Petal Length",
 # Adding colors based on the species.
 plot(Sepal.Length ~ Petal.Length, data=dat, pch=19, cex=1.2, xlab="Petal Length",
      ylab="Sepal Length", col=Species)
-# Note that although the Species variable is a factor variable, R tries to 
+# Note that although the Species variable is a factor variable, R tries to
 # convert it to numerical because the col argument expects a numeric object.
 as.numeric(dat$Species)
 
-# Adding a legend to the figure. Note that the arguments that are used in the 
+# Adding a legend to the figure. Note that the arguments that are used in the
 # plot (or, points) function can be used here for stylize the legend.
 legend("topleft", legend = levels(dat$Species), col=1:3, cex=1.2, pch=19, inset=0.01)
 
@@ -217,7 +216,7 @@ summary(dat)
 summary(res)
 
 # summary is a generic R function and it behaves differently based on the class
-# of the objects it is used upon. 
+# of the objects it is used upon.
 class(dat)  # A data.frame object.
 class(res)  # An lm object.
 
@@ -234,24 +233,24 @@ summary.lm
 ### R Packages
 
 # R comes with several packages (which may not be loaded into the environment*)
-#   * Environment refers to the place where the current collection of objects 
+#   * Environment refers to the place where the current collection of objects
 #   --and functions which are also functions themselves-- in R.
 ls()      # List of objects available in the current environment.
 search()  # Packages that are loaded into the environment.
 
-# Listing all the packages available in the library, i.e., on the computer.  
+# Listing all the packages available in the library, i.e., on the computer.
 library()
 
 # Loading a library into the environment to be able to use their functionality.
 library(ggplot2)
 search()
 
-# Searching among the installed packages for a keyword. 
+# Searching among the installed packages for a keyword.
 help.search("mixed-effects")
 library(lme4)
 
-# The sos package provides a way to search packages for a keyword including the 
-# packages that are not installed already. 
+# The sos package provides a way to search packages for a keyword including the
+# packages that are not installed already.
 library(sos)
 findFn("hierarchical clustering")
 
@@ -265,7 +264,6 @@ library(cluster)
 # research are available.
 # https://www.bioconductor.org/
 
-# In addition, R packages can be stored on GitHub; however, be aware that the 
-# packages stored on GitHub may not have gone through the inspection steps made 
-# by the main repositories. 
-
+# In addition, R packages can be stored on GitHub; however, be aware that the
+# packages stored on GitHub may not have gone through the inspection steps made
+# by the main repositories.
