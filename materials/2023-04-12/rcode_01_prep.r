@@ -43,7 +43,7 @@
 # (data_heart.dat) are located
 
 # read in data
-dat <- read.table("data_heart.dat", header=TRUE, sep="\t", as.is=TRUE)
+dat <- read.table("data_heart.dat", header=TRUE, sep="\t")
 
 ############################################################################
 
@@ -80,17 +80,17 @@ dat$chestpain <- factor(dat$chestpain, levels=c("asymptomatic","typical","nonang
 dat$fbs       <- factor(dat$fbs,       levels=c(0,1), labels=c("no","yes"))
 dat$restecg   <- factor(dat$restecg,   levels=c(0,1), labels=c("normal","some abnormality"))
 dat$exang     <- factor(dat$exang,     levels=c(0,1), labels=c("no","yes"))
-dat$slope     <- factor(dat$slope,     levels=1:3, labels=c("upsloping","flat","downsloping"))
+dat$slope     <- factor(dat$slope,     levels=c(2,1,3), labels=c("flat","upsloping","downsloping"))
 dat$ca        <- factor(dat$ca,        levels=0:3, labels=c("0","1+","1+","1+")) # collapse 1-3 into 1+
 dat$thal      <- factor(dat$thal,      levels=c("normal","fixed","reversable"))
 dat$ahd       <- factor(dat$ahd,       levels=c("no","yes"))
 
 # mean, sd, and range of the quantitative variables
-round(c(mean=mean(dat$age),     sd=sd(dat$age),     range=range(dat$age)),     2)
-round(c(mean=mean(dat$restbp),  sd=sd(dat$restbp),  range=range(dat$restbp)),  2)
-round(c(mean=mean(dat$chol),    sd=sd(dat$chol),    range=range(dat$chol)),    2)
-round(c(mean=mean(dat$maxhr),   sd=sd(dat$maxhr),   range=range(dat$maxhr)),   2)
-round(c(mean=mean(dat$oldpeak), sd=sd(dat$oldpeak), range=range(dat$oldpeak)), 2)
+round(c(mean=mean(dat$age),     sd=sd(dat$age),     range=range(dat$age)),     digits=2)
+round(c(mean=mean(dat$restbp),  sd=sd(dat$restbp),  range=range(dat$restbp)),  digits=2)
+round(c(mean=mean(dat$chol),    sd=sd(dat$chol),    range=range(dat$chol)),    digits=2)
+round(c(mean=mean(dat$maxhr),   sd=sd(dat$maxhr),   range=range(dat$maxhr)),   digits=2)
+round(c(mean=mean(dat$oldpeak), sd=sd(dat$oldpeak), range=range(dat$oldpeak)), digits=2)
 
 # histograms with kernel density estimates for the quantitative variables
 

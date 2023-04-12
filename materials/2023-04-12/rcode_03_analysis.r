@@ -33,7 +33,7 @@ nrow(dat)
 # include all predictors at once
 res1 <- glm(ahd ~ age + sex + chestpain + fbs + restecg + exang + slope + ca +
             thal + restbp + chol + maxhr + oldpeak, data=dat,
-            family=binomial, na.action=na.exclude)
+            family=binomial)
 summary(res1)
 
 # ROC curve and AUC
@@ -44,7 +44,7 @@ plot(roc1)
 auc(roc1)
 
 # model with just age and sex as predictors
-res0 <- glm(ahd ~ age + sex, data=dat, family=binomial, na.action=na.exclude)
+res0 <- glm(ahd ~ age + sex, data=dat, family=binomial)
 summary(res0)
 
 # add ROC curve for this model to the plot
@@ -62,7 +62,9 @@ legend("bottomright", inset=.02,
 # cross-classification table of the predicted and actual class based on res1
 table(predicted = dat$pred1 > 0.5, actual = dat$ahd)
 
-# note: one should split the data into
+# note: it would be better to split the data into a test building dataset and
+# a validation dataset or to use cross-validation to examine how well each of
+# the two models above perform
 
 ############################################################################
 
