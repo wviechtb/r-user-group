@@ -1,0 +1,6 @@
+project:
+  title: "intro-to-quarto"
+  type: default
+  
+editor: source
+theme: "custom.css"

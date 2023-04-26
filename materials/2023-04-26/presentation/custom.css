@@ -1,0 +1,82 @@
+/*-- scss:defaults --*/
+
+// fonts
+ @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+$font-family-sans-serif: "  Crimson Text  ", sans-serif;
+$presentation-heading-color: #FE514B;
+$presentation-title-slide-text-align: "left";
+$code-block-font-size: 0.6em;
+$code-color: #5f5f5f;
+$presentation-h2-font-size: 1.4em;
+
+/*-- scss:rules --*/
+
+.reveal .custom-title {
+  position: absolute;
+  color: #b294bb;
+  font-size: 3em;
+  text-align: right;
+  right: 20px;
+  top: -200px;
+}
+
+.reveal .custom-author {
+  position: absolute;
+  font-size: 1.4em;
+  text-align: right;
+  right: 20px;
+  top: 300px;
+}
+
+.reveal .custom-twitter a {
+  position: absolute;
+  color: #81a2be;
+  font-size: 1.3em;
+  text-align: right;
+  right: 20px;
+  top: 470px;
+}
+
+.reveal .custom-url a {
+  position: absolute;
+  color: #81a2be;
+  font-size: 1.5em;
+  text-align: right;
+  right: 20px;
+  top: 570px;
+}
+
+details>summary {
+  font-size: 0.75em;
+}
+
+
+.medium {
+  font-size: 0.85em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.reveal .slide .in-out {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #E8E8E8;
+  font-family: $font-family-monospace;
+  font-size: 0.6em;
+}
+
+
+.reveal .slide .goal {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #ccddeb;
+}
