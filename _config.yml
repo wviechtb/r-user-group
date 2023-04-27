@@ -1,5 +1,8 @@
 theme: minima
 title: R User Group at Maastricht University (RUG@UM)
+author:
+  name: Wolfgang Viechtbauer
+  email: "wolfgang.viechtbauer@maastrichtuniversity.nl"
 header_pages:
   - blog.md
   - schedule.md
