@@ -4,10 +4,6 @@ title: Topics
 permalink: /topics/
 ---
 
-[Home](README.md) // [Blog](blog.md) // [Schedule](schedule.md) // [Materials](materials.md) // **[Topics](topics.md)** // [Members](members.md)
-
----
-
 ## Topic Ideas
 
 Here, we keep track of potential topic ideas for future meetings. **Suggestions welcome!**
