@@ -4,8 +4,6 @@ title: Topics
 permalink: /topics/
 ---
 
-## Topic Ideas
-
 Here, we keep track of potential topic ideas for future meetings. **Suggestions welcome!**
 
 * how to structure syntax files and projects in general
