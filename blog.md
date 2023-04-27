@@ -4,12 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-[Home](README.md) // **[Blog](blog.md)** // [Schedule](schedule.md) // [Materials](materials.md) // [Topics](topics.md) // [Members](members.md)
-
----
-
-## Blog / Announcements
-
 ### 2023-03-02: First Meeting
 
 We had our first meeting yesterday. Around 25-30 people showed up, with quite diverse backgrounds (some people are just starting out with R, others are already using it in their daily work). After a quick introduction round, we discussed a few topics:

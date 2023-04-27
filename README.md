@@ -1,7 +1,3 @@
-**[Home](README.md)** // [Blog](blog.md) // [Schedule](schedule.md) // [Materials](materials.md) // [Topics](topics.md) // [Members](members.md)
-
----
-
 ## Welcome
 
 This is the website and GitHub repository for the **R User Group at Maastricht University** (RUG@UM).

@@ -4,12 +4,6 @@ title: Schedule
 permalink: /schedule/
 ---
 
-[Home](README.md) // [Blog](blog.md) // **[Schedule](schedule.md)** // [Materials](materials.md) // [Topics](topics.md) // [Members](members.md)
-
----
-
-## Schedule
-
 Below is the schedule for upcoming meetings. Dates are given as year-month-day.
 
 ### Upcoming Meetings
