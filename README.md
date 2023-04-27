@@ -1,3 +1,5 @@
+# Welcome
+
 This is the website and GitHub repository for the **R User Group at Maastricht University** (RUG@UM).
 
 ## Description
