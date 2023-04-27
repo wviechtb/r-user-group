@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: page
 title: Welcome
-permalink: /README/
 ---
 
 This is the website and GitHub repository for the **R User Group at Maastricht University** (RUG@UM).
