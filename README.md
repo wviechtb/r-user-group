@@ -1,4 +1,4 @@
-## Welcome
+## Intro
 
 This is the website and GitHub repository for the **R User Group at Maastricht University** (RUG@UM).
 
@@ -22,10 +22,10 @@ The group is not a 'course', although we very much welcome people who are just s
 
 ### Meeting Structure
 
-In general, 45-60 minutes of a meeting are devoted to a presentation and discussion on a particular topic. The remaining time is more dynamic where (a) newcomers can examine the materials from previous meetings on their own (and, as needed, with the support from more experienced members), (b) members can explore other topics, and (c) members can just mingle with like-minded individuals.
+In general, 45-60 minutes of a meeting are devoted to a presentation and discussion on a particular topic. The remaining time is more dynamic where (a) newcomers can examine the materials from previous meetings on their own (and, as needed, with the support from more experienced R users), (b) members can explore other topics, and (c) people can just mingle with like-minded individuals.
 
 Since meetings are meant to be 'hands on' (i.e., to the extent possible, we will demonstrate, try out, and practice using R), make sure to bring a laptop to the meetings with the current version of R installed, which you can get from [CRAN](https://cran.r-project.org). A lot of people work with R via [RStudio](https://posit.co/products/open-source/rstudio/) (an 'integrated development environment' for R), which you also might want to install (and can get for free from [here](https://posit.co/download/rstudio-desktop/)).
 
 ### Open Access
 
-All materials (e.g., code, presentation slides) are openly and freely available via this GitHub repository. That way, members (and those interested in joining the group) can always check and stay up-to-date with what has been covered in previous meetings.
+All materials (e.g., code, presentation slides) are openly and freely available via the [GitHub repository](https://github.com/wviechtb/r-user-group) for the group (or just go to the [materials](materials.md) page). That way, members and those interested in joining the group can always check and stay up-to-date with what has been covered in previous meetings.

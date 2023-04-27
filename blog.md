@@ -4,6 +4,12 @@ title: Blog
 permalink: /blog/
 ---
 
+### 2023-04-27: Quick Retrospective
+
+So far, we have had a total of five meetings, in which we covered the basics of using R, looked at the use of 'formulas' in R syntax, discussed some general issues with project organizations, tried out some packages for creating a 'Table 1' for studies, examined some methods for categorical data analysis, and took a look at Quarto (a system for creating dynamic documents, reports, books, presentations, and entire websites that can contain R code and code for other languages like Python and Julia).
+
+Anybody who would like to cover a particular topic or give a presentation is more than welcome to do so! Also, please make sure that potentially interested people know about the existence of the user group. If there is a newsletter for your research group/school or some other way of making announcements to your colleagues, then please make use of it, so that more people hear about the group.
+
 ### 2023-03-02: First Meeting
 
 We had our first meeting yesterday. Around 25-30 people showed up, with quite diverse backgrounds (some people are just starting out with R, others are already using it in their daily work). After a quick introduction round, we discussed a few topics:
