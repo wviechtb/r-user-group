@@ -1,15 +1,12 @@
 theme: minima
-
-# Setup (minima)
 title: R User Group at Maastricht University (RUG@UM)
-
 header_pages:
   - blog.md
   - schedule.md
-  - materials/materials.md
+  - materials.md
   - topics.md
   - members.md
 
-# Setup (jekyll-theme-cayman)
+#theme: jekyll-theme-cayman
 #title:   RUG@UM
 #tagline: R User Group at Maastricht University

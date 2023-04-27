@@ -1,4 +1,4 @@
-[Home](README.md) // **[Blog](blog.md)** // [Schedule](schedule.md) // [Materials](/materials/materials.md) // [Topics](topics.md) // [Members](members.md)
+[Home](README.md) // **[Blog](blog.md)** // [Schedule](schedule.md) // [Materials](materials.md) // [Topics](topics.md) // [Members](members.md)
 
 ---
 
@@ -14,7 +14,7 @@ We had our first meeting yesterday. Around 25-30 people showed up, with quite di
 
 3. **Slack workspace:** We will use Slack for communication. To join the workspace, send an email to Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>.
 
-After this discussion, we covered a bit of the basics of R (i.e., reading in data, data inspection, data preparation, and some standard statistical analyses). The materials can be found on the [materials](/materials/materials.md) page.
+After this discussion, we covered a bit of the basics of R (i.e., reading in data, data inspection, data preparation, and some standard statistical analyses). The materials can be found on the [materials](materials.md) page.
 
 Hope to see you at the next meeting!
 

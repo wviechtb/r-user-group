@@ -1,4 +1,4 @@
-[Home](README.md) // [Blog](blog.md) // **[Schedule](schedule.md)** // [Materials](/materials/materials.md) // [Topics](topics.md) // [Members](members.md)
+[Home](README.md) // [Blog](blog.md) // **[Schedule](schedule.md)** // [Materials](materials.md) // [Topics](topics.md) // [Members](members.md)
 
 ---
 
