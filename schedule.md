@@ -1,3 +1,9 @@
+---
+layout: page
+title: Schedule
+permalink: /schedule/
+---
+
 [Home](README.md) // [Blog](blog.md) // **[Schedule](schedule.md)** // [Materials](materials.md) // [Topics](topics.md) // [Members](members.md)
 
 ---

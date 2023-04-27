@@ -1,3 +1,9 @@
+---
+layout: page
+title: Topics
+permalink: /topics/
+---
+
 [Home](README.md) // [Blog](blog.md) // [Schedule](schedule.md) // [Materials](materials.md) // **[Topics](topics.md)** // [Members](members.md)
 
 ---
