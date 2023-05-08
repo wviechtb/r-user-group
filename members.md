@@ -15,5 +15,5 @@ Elias Wieland | PhD student at the Pathology department | multiplex imaging & im
 Ozan Çınar | Postdoc researcher in the Department of Bioinformatics | reproducibility, containerization, interactive programs
 Dick Luyimbazi | Master of Epidemiology student | R programming, statistics, datascience, quantitative methods
 David Barnett | PhD student at Systems Biology and at Medical Microbiology | microbiome & "omics", R package & Shiny development, making nice plots & getting people excited about R
-Jasper Olthuis | Master student Epidemiology and infectious diseases physician at the municipality of Breda | Applied statistics, programming (R, Python), reproducing existing statistical methods from the ground up
-[Tony Hung](https://tonyhungry.github.io) | PhD student in the Department of Data Analytics and Digitalization, School of Business and Economics | Network Analysis, GIS, data visualization
+Jasper Olthuis | Master student Epidemiology and infectious diseases physician at the municipality of Breda | applied statistics, programming (R, Python), reproducing existing statistical methods from the ground up
+[Tony Hung](https://tonyhungry.github.io) | PhD student in the Department of Data Analytics and Digitalization, School of Business and Economics | network analysis, GIS, data visualization

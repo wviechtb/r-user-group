@@ -22,7 +22,7 @@ Date | Time | Topic | Location
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
 2023-04-26 | 16:30-18:30 | [Quarto](https://quarto.org) | UNS50 K4.403
-2023-04-12 | 16:30-18:30 | • project organization <br> • creating Table 1 <br> • categorical data analysis | UNS60 M5.01
+2023-04-12 | 16:30-18:30 | Mixed Bag of Topics <br> • project organization <br> • creating Table 1 <br> • categorical data analysis | UNS60 M5.01
 2023-03-29 | 17:00-18:30 | Formulas in R | UNS60 M5.01
 2023-03-15 | 16:30-18:30 | R Basics | UNS60 M5.01
 2023-03-01 | 16:30-18:30 | Introduction / Starting with R | UNS60 M5.01
