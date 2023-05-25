@@ -12,7 +12,6 @@ Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
 2023-06-28 | 17:00-18:30 | TBD | UNS60 M5.01
 2023-06-14 | 16:30-18:30 | TBD | UNS60 M5.01
-2023-05-24 | 16:30-18:30 | Network analysis with the [`igraph`](https://cran.r-project.org/package=igraph) package | UNS60 M5.01
 
 **Note:** Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. More details on the topic(s) to be covered will be added over time. Further dates to be announced.
 
@@ -20,6 +19,7 @@ Date | Time | Topic | Location
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
+2023-05-24 | 16:30-18:30 | Network analysis with the [`igraph`](https://cran.r-project.org/package=igraph) package | UNS60 M5.01
 2023-04-26 | 16:30-18:30 | [Quarto](https://quarto.org) | UNS50 K4.403
 2023-04-12 | 16:30-18:30 | Mixed Bag of Topics <br> • project organization <br> • creating Table 1 <br> • categorical data analysis | UNS60 M5.01
 2023-03-29 | 17:00-18:30 | Formulas in R | UNS60 M5.01
