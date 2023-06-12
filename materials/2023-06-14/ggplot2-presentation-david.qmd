@@ -1,0 +1,266 @@
+---
+title: "ggplot2"
+subtitle: "Intro, Tips, and Extensions"
+author: "David Barnett"
+date: "14-June-2023"
+date-format: "Do MMMM YYYY"
+format: 
+  revealjs:
+    theme: simple
+    transition: fade
+    transition-speed: fast
+    code-line-numbers: false
+    self-contained: true
+    fig-dpi: 96
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+```
+
+## David Barnett?
+::: columns
+::: {.column width="60%"}
+
+---
+
+Bioinformatician (& PhD) at MUMC+ Medical Microbiology
+
+---
+
+**Previously:**
+PhD at MaCSBio, Infant Gut Microbiome 
+
+---
+
+**Before that:** 
+Epidemiology MSc
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="35%"}
+[![](assets/david-github-profile.jpg)](https://github.com/david-barnett)
+:::
+:::
+
+## What is ggplot2 ?
+
+[![](assets/ggplot2-webpage.jpg)](https://ggplot2.tidyverse.org/)
+
+## What is ggplot2 ?
+
+``` R
+mpg # an example dataset
+```
+
+```{r}
+knitr::kable(as.data.frame(mpg)) %>% 
+  kableExtra::kable_styling(full_width = TRUE, font_size = 20) %>% 
+  kableExtra::scroll_box(height = "600px")
+```
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+# empty plot - needs a geom!
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy))
+```
+
+## What is ggplot2 ? 
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(aes(colour = class))
+```
+
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_text(aes(colour = class, label = model))
+```
+
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_density_2d_filled(contour_var = "count")
+```
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(aes(colour = class))
+```
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(aes(colour = class, shape = drv), size = 3, alpha = .7)
+```
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(aes(colour = class, shape = drv), size = 3, alpha = .7) +
+  scale_colour_brewer(palette = "Dark2") +
+  theme_bw() +
+  labs(title = "Plot title", x = "Axis label")
+```
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(aes(colour = class, shape = drv), size = 3, alpha = .7) +
+  scale_colour_brewer(palette = "Dark2") +
+  theme_bw() +
+  facet_wrap(~drv)
+```
+
+## What can ggplot2 do ?
+
+![](assets/endika2023-old-fig2.jpg)
+
+## What can ggplot2 do ?
+
+![](assets/barnett2023-fig1.jpg)
+
+## How to learn
+
+- [R 4 Data Science book](https://r4ds.hadley.nz/visualize.html) - intro to plots in R
+- [R Graphics Cookbook](https://r-graphics.org/) - quick practical guide
+- [R graph gallery](https://r-graph-gallery.com/) - ideas and example code
+- [ggplot2 website](https://ggplot2.tidyverse.org/reference/index.html) - a reference manual 
+- [ggplot2 book](https://ggplot2-book.org/) - thorough grounding
+- [Cedric Scherer's blog](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) - tutorial/examples
+- [Metaprogramming, Advanced R](https://adv-r.hadley.nz/metaprogramming.html) - experts only 🤯
+
+## ggplot2 extensions
+
+[![](assets/extensions-screenshot.jpg)](https://exts.ggplot2.tidyverse.org/gallery/)
+
+## patchwork - multipanel figures
+
+```{r}
+p1 <- ggplot(mtcars) + geom_point(aes(mpg, disp))
+p2 <- ggplot(mtcars) + geom_boxplot(aes(gear, disp, group = gear))
+p3 <- ggplot(mtcars) + geom_smooth(aes(disp, qsec))
+p4 <- ggplot(mtcars) + geom_bar(aes(carb))
+```
+
+```{r}
+#| echo: true
+#| message: false
+library(patchwork)
+(p1 | p2 | p3) / p4
+```
+
+
+## ggh4x - nested facets and more
+
+![](assets/ggh4x-nested-facets.png)
+
+## ggstatsplot - quick stats on plots
+
+
+```{r}
+#| echo: true
+#| message: false
+#| fig-width: 7
+library(ggstatsplot)
+ggbetweenstats(iris, x = Species, y = Sepal.Length)
+```
+
+## ggiraph (or plotly) - interactive ggplots
+
+```{r}
+p <- mpg %>% 
+  ggplot(aes(x = displ, y = hwy, shape = drv), alpha = .7) +
+  scale_colour_brewer(palette = "Dark2") +
+  theme_bw()
+```
+
+
+```{r}
+#| echo: true
+#| message: false
+library(ggiraph)
+g <- p + geom_point_interactive(aes(tooltip = model, data_id = model), size = 5)  
+girafe(ggobj = g)
+```
+
+
+## ggplots - Sizing and Saving
+
+
+**A.**  Use `ggsave()` -> check file -> edit -> repeat
+
+```r
+p <- p + geom_point(aes(color = class), size = 2)
+ggsave("test.png", p, width = 4, height = 3.5, dpi = 600)
+```
+
+**B.**  Set chunk options in R Markdown or Quarto
+
+::: columns
+::: {.column width="40%"}
+
+````
+
+```{{r}}
+#| fig-width: 4
+#| fig-height: 3.5
+#| fig-dpi: 300
+p + geom_point(aes(color = class), size = 2)
+```
+
+````
+
+:::
+
+::: {.column width="50%"}
+```{r}
+#| fig-width: 4
+#| fig-height: 3.5
+p + geom_point(aes(color = class), size = 2)
+```
+
+:::
+
+:::
+
+## ggplots - Sizing & Saving
+
+- **Target size?** paper, ppt, poster?
+
+- **Text sizing:** `theme()` to set font size
+
+```{r}
+p <- p + geom_point(aes(color = class), size = 2)
+```
+
+```{r}
+#| echo: true
+#| fig-width: 5
+#| fig-height: 5
+p + theme(axis.title = element_text(size = 40, face = "bold"))
+```
+
