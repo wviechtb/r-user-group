@@ -57,18 +57,31 @@ Epidemiology MSc
 mpg # an example dataset
 ```
 
+::: {.fragment}
+
 ```{r}
 knitr::kable(as.data.frame(mpg)) %>% 
   kableExtra::kable_styling(full_width = TRUE, font_size = 20) %>% 
-  kableExtra::scroll_box(height = "600px")
+  kableExtra::scroll_box(height = "550px")
 ```
+
+:::
 
 ## What is ggplot2 ?
 
 ```{r}
+#| output-location: fragment
 #| echo: true
 # empty plot - needs a geom!
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy))
+```
+
+## What is ggplot2 ? 
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point()
 ```
 
 ## What is ggplot2 ? 
@@ -119,9 +132,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 #| echo: true
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
   geom_point(aes(colour = class, shape = drv), size = 3, alpha = .7) +
-  scale_colour_brewer(palette = "Dark2") +
-  theme_bw() +
-  labs(title = "Plot title", x = "Axis label")
+  geom_label(data = ~ filter(., hwy > 40), aes(label = model), nudge_x = .4)
 ```
 
 ## What is ggplot2 ?
@@ -131,8 +142,17 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
   geom_point(aes(colour = class, shape = drv), size = 3, alpha = .7) +
   scale_colour_brewer(palette = "Dark2") +
-  theme_bw() +
-  facet_wrap(~drv)
+  theme_bw(base_size = 20)
+```
+
+## What is ggplot2 ?
+
+```{r}
+#| echo: true
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(size = 2, alpha = .5) +
+  theme_bw(base_size = 20) +
+  facet_wrap(~class, nrow = 2)
 ```
 
 ## What can ggplot2 do ?
@@ -143,7 +163,11 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 
 ![](assets/barnett2023-fig1.jpg)
 
-## How to learn
+## What can ggplot2 do ?
+
+![](assets/ord_explore.gif)
+
+## How to Learn ggplot2 ?
 
 - [R 4 Data Science book](https://r4ds.hadley.nz/visualize.html) - intro to plots in R
 - [R Graphics Cookbook](https://r-graphics.org/) - quick practical guide
@@ -153,7 +177,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 - [Cedric Scherer's blog](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) - tutorial/examples
 - [Metaprogramming, Advanced R](https://adv-r.hadley.nz/metaprogramming.html) - experts only 🤯
 
-## ggplot2 extensions
+## ggplot2 extensions ?
 
 [![](assets/extensions-screenshot.jpg)](https://exts.ggplot2.tidyverse.org/gallery/)
 
@@ -208,8 +232,7 @@ girafe(ggobj = g)
 ```
 
 
-## ggplots - Sizing and Saving
-
+## ggplots - Sizing & Saving
 
 **A.**  Use `ggsave()` -> check file -> edit -> repeat
 
@@ -217,6 +240,8 @@ girafe(ggobj = g)
 p <- p + geom_point(aes(color = class), size = 2)
 ggsave("test.png", p, width = 4, height = 3.5, dpi = 600)
 ```
+
+::: {.fragment}
 
 **B.**  Set chunk options in R Markdown or Quarto
 
@@ -247,6 +272,8 @@ p + geom_point(aes(color = class), size = 2)
 
 :::
 
+:::
+
 ## ggplots - Sizing & Saving
 
 - **Target size?** paper, ppt, poster?
@@ -263,4 +290,30 @@ p <- p + geom_point(aes(color = class), size = 2)
 #| fig-height: 5
 p + theme(axis.title = element_text(size = 40, face = "bold"))
 ```
+
+## Practice suggestions for today
+
+
+**Beginner with R or ggplot2:** 
+
+- practice making **and saving** basic plots
+
+**Some ggplot2 experience:**
+
+- try a new extension package? patchwork?
+
+**Expert ggplot2 user:** 
+
+- try ggiraph for interactive ggplots?
+
+
+## Resource links again
+
+- [R 4 Data Science book](https://r4ds.hadley.nz/visualize.html) - intro to plots in R
+- [R Graphics Cookbook](https://r-graphics.org/) - quick practical guide
+- [R graph gallery](https://r-graph-gallery.com/) - ideas and example code
+- [ggplot2 website](https://ggplot2.tidyverse.org/reference/index.html) - a reference manual 
+- [ggplot2 book](https://ggplot2-book.org/) - thorough grounding
+- [Cedric Scherer's blog](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/) - tutorial/examples
+- [Metaprogramming, Advanced R](https://adv-r.hadley.nz/metaprogramming.html) - experts only 🤯
 
