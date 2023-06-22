@@ -14,12 +14,10 @@ Here, we keep track of potential topic ideas for future meetings. **Suggestions 
 * statistical software with a GUI that uses R for the computations (e.g., [JASP](https://jasp-stats.org/), [jamovi](https://www.jamovi.org/), [BlueSky Statistics](https://www.blueskystatistics.com))
 * alternatives to RStudio (e.g., [Visual Studio Code](https://code.visualstudio.com), [RKWard](https://rkward.kde.org), [Architect](https://www.getarchitect.io), [Sublime](https://www.sublimetext.com), [Emacs](https://www.gnu.org/software/emacs/), [Vim](https://www.vim.org), ...)
 * the [tidyverse](https://www.tidyverse.org) and packages like [tibble](https://tibble.tidyverse.org), [magrittr](https://magrittr.tidyverse.org), and [dplyr](https://dplyr.tidyverse.org)
-* base R graphics versus [ggplot2](https://ggplot2.tidyverse.org)
 * for-loops and functionals (i.e., the `*apply()` family of functions and [purrr](https://purrr.tidyverse.org) for the tidyverse approach to functionals)
 * the [data.table](https://cran.r-project.org/package=data.table) package
 * writing your own R functions
 * writing R packages
-* multicore/parallel processing using R
 * the [tidymodels](https://www.tidymodels.org) framework
 * working with APIs (e.g., loading data from CBS)
 * making maps / visualizing spatial data

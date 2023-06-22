@@ -10,7 +10,7 @@ Below is the schedule for upcoming meetings. Dates are given as year-month-day.
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
-2023-06-28 | 17:00-18:30 | TBD | UNS60 M5.01
+2023-06-28 | 17:00-18:30 | Parallel processing with R | UNS60 M5.01
 
 **Note:** Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. More details on the topic(s) to be covered will be added over time. Further dates to be announced.
 
