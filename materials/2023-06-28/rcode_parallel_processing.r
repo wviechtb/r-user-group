@@ -154,7 +154,7 @@ dat <- data.frame(X)
 system.time(res <- lapply(dat, t.test))[3]
 
 # run the 100 t-tests in parallel spread over 2 cores (so each core should
-# run approximately 500 tests)
+# run approximately 50 tests)
 system.time(res <- parLapply(cl, dat, t.test))[3]
 
 # why is this not faster? because there is a bit of overhead in sending the
@@ -184,9 +184,6 @@ clusterEvalQ(cl, library(mclust))
 # run the 100 analyses in parallel (takes about half of the time)
 system.time(res <- parLapply(cl, dat, clustfun))[3]
 
-# stop/close the local cluster
-stopCluster(cl)
-
 # examine the results for the first two variables
 res[1:2]
 
@@ -197,12 +194,27 @@ lines(density(sapply(res, function(x) x[3])), lwd=3, col="firebrick")
 legend("topright", inset=.02, lwd=3, col=c("black","dodgerblue","firebrick"),
        legend=c("Components: 1", "Components: 2", "Components: 3"))
 
+# a different setup to accomplish the same thing
+clustfun <- function(i) {
+   res <- Mclust(dat[[i]], modelNames="E", G=1:3, verbose=FALSE)
+   return(res$BIC)
+}
+
+# export 'dat' to each background process
+clusterExport(cl, "dat")
+
+# now instead of using 'dat' in parLapply(), we just give it a vector of indices
+system.time(res <- parLapply(cl, 1:100, clustfun))[3]
+
+# stop/close the local cluster
+stopCluster(cl)
+
 ############################################################################
 
 ### load balancing
 
-# roughly, parLapply() will allocate 500 of the analyses to the first process
-# and the other 500 to the second process; but some analyses may take more
+# roughly, parLapply() will allocate 50 of the analyses to the first process
+# and the other 50 to the second process; but some analyses may take more
 # time to finish than others; in this case, it can happen that the analyses
 # run on the first process are already finished, while the other analyses are
 # still running; during the time, the first process is doing nothing (since it
@@ -237,8 +249,9 @@ res
 
 # load balancing can actually slow things down due to the additional overhead
 clusterEvalQ(cl, library(mclust))
-system.time(res <- parLapply(cl, dat, clustfun))[3]
-system.time(res <- parLapplyLB(cl, dat, clustfun))[3]
+clusterExport(cl, "dat")
+system.time(res <- parLapply(cl, 1:100, clustfun))[3]
+system.time(res <- parLapplyLB(cl, 1:100, clustfun))[3]
 
 ############################################################################
 
