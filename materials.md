@@ -8,6 +8,7 @@ The materials for the upcoming meeting and all previous meetings are collected h
 
 Date | Topic | Folder    | Zip
 :--- | :---- | :-------- | :--------
+2023-10-04 | Bibliometric analysis with [`bibliometrix`](https://cran.r-project.org/package=bibliometrix) | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-10-04) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-10-04/2023-10-04.zip)
 2023-06-28 | Parallel processing with R | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-06-28) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-06-28/2023-06-28.zip)
 2023-06-14 | [`ggplot2`](https://cran.r-project.org/package=ggplot2) tips & extensions | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-06-14) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-06-14/2023-06-14.zip)
 2023-05-24 | Network analysis with the [`igraph`](https://cran.r-project.org/package=igraph) package | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-05-24) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-05-24/2023-05-24.zip)
