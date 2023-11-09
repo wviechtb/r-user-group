@@ -10,7 +10,7 @@ permalink: /workshop_lavaan/
 Date | March 8th, 2024
 Time | 9:00 - 17:00
 Location | [Hotel van der Valk](https://www.hotelmaastricht.com)<br>Nijverheidsweg 35<br>6227 AL Maastricht
-Fee | 50 Euros for PhD students, post-docs, and beyond<br>free for Master students if places are available<br<note: lunch is included in the registration fee
+Fee | • 50 Euros for PhD students, post-docs, and beyond<br>• free for Master students if places are available<br>• note: lunch is included in the registration fee
 
 ### Workshop Description
 
