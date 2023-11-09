@@ -16,7 +16,7 @@ Fee | • 50 Euros for PhD students, post-docs, and beyond<br>• free for Maste
 
 Broadly speaking, latent variable models are statistical models that describe and model the relationships between observable and latent variables. Models of this form are used in [confirmatory factor analysis](https://en.wikipedia.org/wiki/Confirmatory_factor_analysis) (CFA), [structural equation modeling](https://en.wikipedia.org/wiki/Structural_equation_modeling) (SEM), [mediation analyses](https://en.wikipedia.org/wiki/Mediation_(statistics)), and [growth curve modeling](https://en.wikipedia.org/wiki/Latent_growth_modeling).
 
-![RStudio Screenshot](/r-user-group/assets/screenshot_lavaan.png)
+![RStudio Screenshot](/r-user-group/assets/images/screenshot_lavaan.png)
 
 In this workshop, you will learn how to conduct such analyses using the [lavaan(https://lavaan.ugent.be) package, a free and open-source add-on to the statistical programming language [R](https://en.wikipedia.org/wiki/R_(programming_language)). The lavaan package rivals commercially available software (such as LISREL, Mplus, Amos, and EQS) in terms of functionality and makes fitting latent variable models extremely easy. Time permitting, we will also cover topics such as multigroup models, measurement invariance, multilevel models, and the analysis of categorical data in the context of latent variable models.
 
