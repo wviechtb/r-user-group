@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshop on Latent Variable Modeling<br>with the lavaan Package
+title: Workshop on Latent Variable Modeling with the lavaan Package
 permalink: /workshop_lavaan/
 ---
 
