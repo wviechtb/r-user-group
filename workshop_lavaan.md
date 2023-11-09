@@ -11,7 +11,7 @@ Date | March 8th, 2024
 Time | 9:00 - 17:00
 Location | [Hotel van der Valk](https://www.hotelmaastricht.com)<br>Nijverheidsweg 35<br>6227 AL Maastricht
 Fee | • 50 Euros for PhD students, post-docs, and beyond<br>• free for Master students if places are available<br>• note: lunch is included in the registration fee
-Instructor | Yves Rosseel
+Instructor | [Yves Rosseel](https://research.ugent.be/web/person/yves-rosseel-0/en) (author of the lavaan package)
 
 ### Workshop Description
 
