@@ -1,10 +1,16 @@
 ---
 layout: page
-title: Latent Variable Modeling with the R Package `lavaan`
+title: Latent Variable Modeling with the lavaan Package
 permalink: /workshop_lavaan/
 ---
 
 ### General Information
+
+:--- | :--- |
+Workshop Date | March 1st, 2024
+Workshop Times | 9:00 - 17:00
+Workshop Location | [Hotel van der Valk](https://www.hotelmaastricht.com)<br>Nijverheidsweg 35<br>6227 AL Maastricht</td>
+Workshop Fee | 50 Euros
 
 <table>
 <tr>
@@ -16,18 +22,18 @@ permalink: /workshop_lavaan/
    <td>9:00 - 17:00</td>
 </tr>
 <tr>
-   <td>Course Location</td>
+   <td>Workshop Location</td>
    <td><a href="https://www.hotelmaastricht.com/">Hotel van der Valk</a><br>Nijverheidsweg 35<br>6227 AL Maastricht</td>
 </tr>
 <tr>
-   <td>Course Fee</td>
+   <td>Workshop Fee</td>
    <td>50 Euros</td>
 </tr>
 </table>
 
 ### Workshop Description
 
-Broadly speaking, latent variable models are statistical models that describe and model the relationships between observable and latent variables. Models of this form are used in confirmatory factor analysis (CFA), structural equation modeling (SEM), mediation analyses, and growth curve modeling.
+Broadly speaking, latent variable models are statistical models that describe and model the relationships between observable and latent variables. Models of this form are used in [confirmatory factor analysis](https://en.wikipedia.org/wiki/Confirmatory_factor_analysis) (CFA), [structural equation modeling](https://en.wikipedia.org/wiki/Structural_equation_modeling) (SEM), [mediation analyses](https://en.wikipedia.org/wiki/Mediation_(statistics)), and [growth curve modeling](https://en.wikipedia.org/wiki/Latent_growth_modeling).
 
 In this workshop, you will learn how to conduct such analyses using the [`lavaan`](https://lavaan.ugent.be) package, a free and open-source add-on to the statistical programming language [R](https://en.wikipedia.org/wiki/R_(programming_language)).
 
