@@ -11,6 +11,7 @@ Date | March 8th, 2024
 Time | 9:00 - 17:00
 Location | [Hotel van der Valk](https://www.hotelmaastricht.com)<br>Nijverheidsweg 35<br>6227 AL Maastricht
 Fee | • 50 Euros for PhD students, post-docs, and beyond<br>• free for Master students if places are available<br>• note: lunch is included in the registration fee
+Instructor | Yves Rosseel
 
 ### Workshop Description
 
@@ -19,6 +20,8 @@ Broadly speaking, latent variable models are statistical models that describe an
 ![RStudio Screenshot](/r-user-group/assets/images/screenshot_lavaan.png)
 
 In this workshop, you will learn how to conduct such analyses using the [lavaan](https://lavaan.ugent.be) package, a free and open-source add-on to the statistical programming language [R](https://en.wikipedia.org/wiki/R_(programming_language)). The lavaan package rivals commercially available software (such as LISREL, Mplus, Amos, and EQS) in terms of functionality and makes fitting latent variable models extremely easy. Time permitting, we will also cover topics such as multigroup models, measurement invariance, multilevel models, and the analysis of categorical data in the context of latent variable models.
+
+The workshop will be given directly by the author of the lavaan package, [Yves Rosseel](https://research.ugent.be/web/person/yves-rosseel-0/en), Professor of Data Analysis at Ghent University.
 
 ### Workshop Prerequisites / Preparations
 
