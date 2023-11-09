@@ -1,41 +1,22 @@
 ---
 layout: page
-title: Latent Variable Modeling with the lavaan Package
+title: Workshop on Latent Variable Modeling with the lavaan Package
 permalink: /workshop_lavaan/
 ---
 
 ### General Information
 
 :--- | :--- |
-Workshop Date | March 1st, 2024
-Workshop Times | 9:00 - 17:00
-Workshop Location | [Hotel van der Valk](https://www.hotelmaastricht.com)<br>Nijverheidsweg 35<br>6227 AL Maastricht</td>
-Workshop Fee | 50 Euros
-
-<table>
-<tr>
-   <td>Workshop Date</td>
-   <td>March 1st, 2024</td>
-</tr>
-<tr>
-   <td>Workshop Times</td>
-   <td>9:00 - 17:00</td>
-</tr>
-<tr>
-   <td>Workshop Location</td>
-   <td><a href="https://www.hotelmaastricht.com/">Hotel van der Valk</a><br>Nijverheidsweg 35<br>6227 AL Maastricht</td>
-</tr>
-<tr>
-   <td>Workshop Fee</td>
-   <td>50 Euros</td>
-</tr>
-</table>
+Date | March 8th, 2024
+Time | 9:00 - 17:00
+Location | [Hotel van der Valk](https://www.hotelmaastricht.com)<br>Nijverheidsweg 35<br>6227 AL Maastricht
+Fee | 50 Euros for PhD students, post-docs, and beyond<br>free for Master students if places are available
 
 ### Workshop Description
 
 Broadly speaking, latent variable models are statistical models that describe and model the relationships between observable and latent variables. Models of this form are used in [confirmatory factor analysis](https://en.wikipedia.org/wiki/Confirmatory_factor_analysis) (CFA), [structural equation modeling](https://en.wikipedia.org/wiki/Structural_equation_modeling) (SEM), [mediation analyses](https://en.wikipedia.org/wiki/Mediation_(statistics)), and [growth curve modeling](https://en.wikipedia.org/wiki/Latent_growth_modeling).
 
-In this workshop, you will learn how to conduct such analyses using the [`lavaan`](https://lavaan.ugent.be) package, a free and open-source add-on to the statistical programming language [R](https://en.wikipedia.org/wiki/R_(programming_language)).
+In this workshop, you will learn how to conduct such analyses using the [`lavaan`](https://lavaan.ugent.be) package, a free and open-source add-on to the statistical programming language [R](https://en.wikipedia.org/wiki/R_(programming_language)). The `lavaan` package rivals commercially available software (such as LISREL, Mplus, Amos, and EQS) in terms of functionality and makes fitting latent variable models extremely easy. Time permitting, we will also cover topics such as multigroup models, measurement invariance, multilevel models, and the analysis of categorical data in the context of latent variable models.
 
 ### Workshop Prerequisites / Preparations
 
@@ -43,7 +24,7 @@ In general, all efforts will be made to make the workshop as self-contained as p
 
 Please bring a laptop with a current version of R installed to the workshop. You can download R for free from the [Comprehensive R Archive Network](https://cran.r-project.org) (CRAN). If you already have R installed, double-check that it is a relatively revent version (the current version is 4.3.2, but slightly older versions should also be ok). Although not strictly necessary, it will also be useful to install an integrated development environment (IDE) for R, which makes the use of R a more user-friendly experience. A popular choice these days is RStudio, which you can download for free from [here](https://posit.co/download/rstudio-desktop/).
 
-Once R (and RStudio) are installed, please also install the `lavaan` package. You should be able to install the package by starting R/RStudio and then typing `install.packages("lavaan")` into the 'Console'. As long as you do not get an error message, then the installation was successful. You can also double-check this by loading the package with `library(lavaan)` (you should get a message that states `This is lavaan ...`). If you have problems with installing any of the software (i.e., R, RStudio, and/or lavaan), you can come to the preparation session mentioned above for assistance.
+Once R (and RStudio) are installed, please also install the `lavaan` package. You should be able to install the package by starting R/RStudio and then typing `r install.packages("lavaan")` into the 'Console'. As long as you do not get an error message, then the installation was successful. You can also double-check this by loading the package with `r library(lavaan)` (you should get a message that states `This is lavaan ...`). If you have problems with installing any of the software (i.e., R, RStudio, and/or lavaan), you can come to the preparation session mentioned above for assistance.
 
 ### Registration
 
