@@ -4,6 +4,10 @@ title: Blog
 permalink: /blog/
 ---
 
+### 2023-11-17: Workshop on Latent Variable Modeling
+
+Over the course of the last meetings, we have made arrangements for the first workshop that is organized by the group, which will be a workshop on latent variable modeling with the [lavaan](https://lavaan.ugent.be) package. The workshop will take place March 8th, 2024, and will be led by [Yves Rosseel](https://research.ugent.be/web/person/yves-rosseel-0/en), Professor of Data Analysis at Ghent University, who is also the author of the lavaan package. For further details about the workshop (and registration information), see [here](workshop_2024_lavaan.md). This is a great opportunity to learn about this general class of models directly from the author of lavaan package, which is the de-facto standard R package for fitting such models.
+
 ### 2023-04-27: Quick Retrospective
 
 So far, we have had a total of five meetings, in which we covered the basics of using R, looked at the use of 'formulas' in R syntax, discussed some general issues with project organizations, tried out some packages for creating a 'Table 1' for studies, examined some methods for categorical data analysis, and took a look at Quarto (a system for creating dynamic documents, reports, books, presentations, and entire websites that can contain R code and code for other languages like Python and Julia).
