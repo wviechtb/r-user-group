@@ -15,7 +15,7 @@ Instructor | [Yves Rosseel](https://research.ugent.be/web/person/yves-rosseel-0/
 
 ### Workshop Description
 
-Broadly speaking, latent variable models are statistical models that describe and model the relationships between observable and latent variables. Models of this form are used in [confirmatory factor analysis](https://en.wikipedia.org/wiki/Confirmatory_factor_analysis) (CFA), [structural equation modeling](https://en.wikipedia.org/wiki/Structural_equation_modeling) (SEM), [mediation analyses](https://en.wikipedia.org/wiki/Mediation_(statistics)), and [growth curve modeling](https://en.wikipedia.org/wiki/Latent_growth_modeling).
+Broadly speaking, latent variable models are statistical models that describe and model the relationships between observable and latent variables. Models of this form are used for various types of analyses including [confirmatory factor analysis](https://en.wikipedia.org/wiki/Confirmatory_factor_analysis) (CFA), [structural equation modeling](https://en.wikipedia.org/wiki/Structural_equation_modeling) (SEM), [mediation analyses](https://en.wikipedia.org/wiki/Mediation_(statistics)), and [growth curve modeling](https://en.wikipedia.org/wiki/Latent_growth_modeling).
 
 ![RStudio Screenshot](/r-user-group/assets/images/screenshot_lavaan.png)
 
@@ -33,7 +33,7 @@ Once R (and RStudio) are installed, please also install the lavaan package. You 
 
 ### Registration
 
-To register for the workshop, please send an email to Ine Schaapkens at **ine.schaapkens@maastrichtuniversity.nl** with the subject "Registration for lavaan Workshop". Aside from your name and email address, we also need to know your department within the university (note that the workshop is only meant for those affiliated with Maastricht University) and your position (i.e., are you a Master student or a PhD student, post-doc, or beyond?).
+Please note that the workshop is only meant for those affiliated with Maastricht University. To register for the workshop, please send an email to Ine Schaapkens at **ine.schaapkens@maastrichtuniversity.nl** with the subject "Registration for lavaan Workshop". Aside from your name and email address, we also need to know your department within the university and your position (i.e., are you a Master student or a PhD student, post-doc, or beyond?).
 
 You will be notified upon receipt of the email whether there are still open places available for the workshop (the maximum number of participants is 50). If so, then you can complete your registration by paying the registration fee of 50 Euros (instructions will be provided via e-mail).
 
