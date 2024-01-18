@@ -33,7 +33,7 @@ Once R (and RStudio) are installed, please also install the lavaan package. You 
 
 ### Registration
 
-Please note that the workshop is only meant for those affiliated with Maastricht University. To register for the workshop, please send an email to Ine Schaapkens at **ine.schaapkens@maastrichtuniversity.nl** with the subject "Registration for lavaan Workshop". Aside from your name and email address, we also need to know your department within the university and your position (i.e., are you a Master student or a PhD student, post-doc, or beyond?).
+Please note that the workshop is primarily meant for those affiliated with Maastricht University (if you are not affiliated with the university but would like to attend, please send an email to Wolfgang Viechtbauer at **wolfgang.viechtbauer@maastrichtuniversity.nl** to discuss this). To register for the workshop, please send an email to Ine Schaapkens at **ine.schaapkens@maastrichtuniversity.nl** with the subject "Registration for lavaan Workshop". Aside from your name and email address, we also need to know your department within the university and your position (i.e., are you a Master student or a PhD student, post-doc, or beyond?).
 
 You will be notified upon receipt of the email whether there are still open places available for the workshop (the maximum number of participants is 50). If so, then you can complete your registration by paying the registration fee of 50 Euros (instructions will be provided via e-mail).
 
