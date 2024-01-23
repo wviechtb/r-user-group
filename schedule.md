@@ -10,12 +10,12 @@ Below is the schedule for upcoming meetings. Dates are given as year-month-day.
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
-2023-06-19 | 16:30-18:00 | TBD | UNS60 M5.01
-2023-05-22 | 16:30-18:00 | TBD | UNS60 M5.01
-2023-04-24 | 17:00-18:30 | TBD | UNS60 M5.01
-2023-03-27 | 17:00-18:30 | TBD | UNS60 M5.01
-2023-02-21 | 17:00-18:30 | TBD | UNS60 M5.01
-2023-01-24 | 16:30-18:30 | TBD | UNS60 M0.08
+2024-06-19 | 16:30-18:00 | TBD | UNS60 M5.01
+2024-05-22 | 16:30-18:00 | TBD | UNS60 M5.01
+2024-04-24 | 17:00-18:30 | TBD | UNS60 M5.01
+2024-03-27 | 17:00-18:30 | TBD | UNS60 M5.01
+2024-02-21 | 17:00-18:30 | TBD | UNS60 M5.01
+2024-01-24 | 16:30-18:30 | TBD | UNS60 M0.08
 2023-12-13 | 16:30-18:30 | TBD | UNS50 K4.403
 
 **Note:** Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. More details on the topic(s) to be covered will be added over time. Further dates to be announced.
