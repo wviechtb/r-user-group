@@ -14,7 +14,7 @@ Date | Time | Topic | Location
 2024-05-22 | 16:30-18:00 | TBD | UNS60 M5.01
 2024-04-24 | 17:00-18:30 | TBD | UNS60 M5.01
 2024-03-27 | 17:00-18:30 | TBD | UNS60 M5.01
-2024-03-08 | 09:00-17:00 | [Latent Variable Modeling with lavaan](workshop_2024_lavaan.md) | [Hotel van der Valk](https://www.hotelmaastricht.com)
+2024-03-08 | 09:00-17:00 | [Latent variable modeling with lavaan](workshop_2024_lavaan.md) | [Hotel van der Valk](https://www.hotelmaastricht.com)
 2024-02-21 | 17:00-18:30 | R Basics (in preparation for the [lavaan workshop](workshop_2024_lavaan.md)) | UNS60 M5.01
 2024-01-24 | 16:30-18:30 | Parallel processing with the [`future`](https://cran.r-project.org/package=future) package | UNS60 M0.08
 
