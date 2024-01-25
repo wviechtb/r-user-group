@@ -4,10 +4,12 @@ title: Materials
 permalink: /materials/
 ---
 
-The materials for the upcoming meeting and all previous meetings are collected here. Note that materials for the upcoming meeting may change up until the meeting actually takes place.
+The materials for the previous meetings are collected here.
 
 Date | Topic | Folder    | Zip
 :--- | :---- | :-------- | :--------
+
+2024-01-24 | Parallel processing with the [`future`](https://cran.r-project.org/package=future) package | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2024-10-24) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2024-01-24/2024-01-24.zip)
 2023-10-04 | Bibliometric analysis with [`bibliometrix`](https://cran.r-project.org/package=bibliometrix) | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-10-04) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-10-04/2023-10-04.zip)
 2023-06-28 | Parallel processing with R | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-06-28) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-06-28/2023-06-28.zip)
 2023-06-14 | [`ggplot2`](https://cran.r-project.org/package=ggplot2) tips & extensions | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-06-14) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-06-14/2023-06-14.zip)
