@@ -25,3 +25,7 @@ Since meetings are meant to be 'hands on' (i.e., to the extent possible, we will
 ### Open Access
 
 All materials (e.g., code, presentation slides) are openly and freely available via the [GitHub repository](https://github.com/wviechtb/r-user-group) for this website (or just go to the [materials](materials.md) page). That way, members and those interested in joining the group can always check and stay up-to-date with what has been covered in previous meetings.
+
+### Communication
+
+We use Slack for communication within the group. To join the workspace, send an email to Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>.
