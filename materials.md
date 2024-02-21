@@ -8,6 +8,7 @@ The materials for the previous meetings are collected here.
 
 Date | Topic | Folder    | Zip
 :--- | :---- | :-------- | :--------
+2024-02-21 | R Basics (in preparation for the [lavaan workshop](workshop_2024_lavaan.md)) | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2024-02-21) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2024-02-21/2024-02-21.zip)
 2024-01-24 | Parallel processing with the [`future`](https://cran.r-project.org/package=future) package | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2024-01-24) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2024-01-24/2024-01-24.zip)
 2023-10-04 | Bibliometric analysis with [`bibliometrix`](https://cran.r-project.org/package=bibliometrix) | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-10-04) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-10-04/2023-10-04.zip)
 2023-06-28 | Parallel processing with R | [link](https://github.com/wviechtb/r-user-group/tree/master/materials/2023-06-28) | [zip](https://github.com/wviechtb/r-user-group/raw/master/materials/2023-06-28/2023-06-28.zip)
