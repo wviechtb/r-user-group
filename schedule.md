@@ -10,9 +10,9 @@ Below is the schedule for upcoming meetings. Dates are given as year-month-day.
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
-~~2024-06-19~~ | ~~16:30-18:00~~ | cancelled | ~~UNS60 M5.01~~
+2024-10-07 | 15:00-17:00 | TBD | online
 
-**Note:** Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. More details on the topic(s) to be covered will be added over time. Further dates to be announced.
+**Note:** Online meetings are held via Zoom. If you would like to attend, send an email to Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>. Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. Further dates to be announced.
 
 ### Past Meetings
 
