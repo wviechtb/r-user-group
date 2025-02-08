@@ -10,7 +10,7 @@ Below is the schedule for upcoming meetings. Dates are given as year-month-day.
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
-2024-10-07 | 15:00-17:00 | TBD | online
+2025-02-13 | 14:00-15:00 | Discuss future workshops | Online
 
 **Note:** Online meetings are held via Zoom. If you would like to attend, send an email to Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>. Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. Further dates to be announced.
 
@@ -18,6 +18,8 @@ Date | Time | Topic | Location
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
+2025-02-05 | 14:00-15:00 | General meetup | Online
+2024-10-07 | 15:00-16:00 | General meetup | Online
 2024-04-24 | 17:00-18:30 | Machine learning with R | UNS60 M5.01
 2024-03-27 | 17:00-18:30 | Follow-up meeting to the [lavaan workshop](workshop_2024_lavaan.md) | UNS60 M5.01
 2024-03-08 | 09:00-17:00 | [Latent variable modeling with lavaan](workshop_2024_lavaan.md) | [van der Valk](https://www.hotelmaastricht.com)
