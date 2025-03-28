@@ -10,7 +10,7 @@ Below is the schedule for upcoming meetings. Dates are given as year-month-day.
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
-2025-02-13 | 14:00-15:00 | Discuss future workshops | Online
+TBD | TBD | Discuss future workshops | Online
 
 **Note:** Online meetings are held via Zoom. If you would like to attend, send an email to Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>. Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. Further dates to be announced.
 
