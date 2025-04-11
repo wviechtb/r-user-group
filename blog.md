@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-### 2025-04-11: General Update
+### 2025-04-11: Another Small Update
 
 While meetings are currently only held very sporadically, we are exploring the possibilities for hosting more workshops (since the [lavaan workshop](workshop_2024_lavaan.md) last year was well-received/attended). However, if there is interest in restarting the regular meetings, do get in touch to discuss possible dates and options. We have also decided to move away from Slack for internal communications. Instead, we are now using a [Matrix](https://matrix.org) room. If you would like to join the conversation, contact Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>.
 
