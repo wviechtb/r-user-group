@@ -4,6 +4,10 @@ title: Blog
 permalink: /blog/
 ---
 
+### 2025-04-11: General Update
+
+While meetings are currently only held very sporadically, we are exploring the possibilities for hosting more workshops (since the [lavaan workshop](workshop_2024_lavaan.md) last year was well-received/attended). However, if there is interest in restarting the regular meetings, do get in touch to discuss possible dates and options. We have also decided to move away from Slack for internal communications. Instead, we are now using a [Matrix](https://matrix.org) room. If you would like to join the conversation, contact Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>.
+
 ### 2024-09-18: General Update
 
 In the Spring, we held a few meetings on various topics and also ran a workshop on latent variable modeling with the [lavaan](https://lavaan.ugent.be) package, which was taught by Yves Rosseel (the author of the lavaan package) from Ghent University. The workshop was a great success and was well attended with over 36 participants.

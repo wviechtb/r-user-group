@@ -10,14 +10,15 @@ Below is the schedule for upcoming meetings. Dates are given as year-month-day.
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
-2025-04-10 | 13:00-14:00 | Discuss future workshops | Online
+TBD | TBD | TBD | TBD
 
-**Note:** Online meetings are held via Zoom. If you would like to attend, send an email to Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>. Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. Further dates to be announced.
+**Note:** Online meetings are currently being held via Zoom. If you would like to attend, send an email to Wolfgang at <wolfgang.viechtbauer (at) maastrichtuniversity.nl>. Please double-check the schedule before each meeting in case of a change in the time or location on short notice. The starting times are exact, but the ending times might fluctuate a bit. TBD = to be determined. Further dates to be announced.
 
 ### Past Meetings
 
 Date | Time | Topic | Location
 :--- | :--- | :---- | :-------
+2025-04-10 | 13:00-14:00 | Discuss future workshops | Online
 2025-02-05 | 14:00-15:00 | General meetup | Online
 2024-10-07 | 15:00-16:00 | General meetup | Online
 2024-04-24 | 17:00-18:30 | Machine learning with R | UNS60 M5.01
